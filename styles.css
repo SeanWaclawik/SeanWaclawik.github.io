@@ -104,7 +104,7 @@ h1.name {
 	display: inline-block;
 }
 
-.job-title {
+.date-title{
 	vertical-align: top;
 	background-color: #D9E7F8;
 	color: #4A90E2;
@@ -124,7 +124,7 @@ h1.name {
 	margin-top: 10px;
 }
 
-.lead {
+.message {
 	font-size: 44px;
 	font-weight: 300;
 	margin-top: 60px;
@@ -429,7 +429,7 @@ li .description {
 		display: none;
 		}
 
-	.job-title {
+	.date-title{
 		position: absolute;
 		font-size: 15px;
 		top: -40px;

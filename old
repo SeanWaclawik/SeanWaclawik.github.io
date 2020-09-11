@@ -1,0 +1,55 @@
+<!-- SMW -->
+<div id="wrapper">
+    
+	<div id="header">
+		<div id="nav"><a href="index.html">Home</a> | <a href="#">About Me</a> | <a href="#">Contact Me</a> 
+		  | <a href="#">My Photos</a> | <a href="#">My Videos</a> </div>
+		<div id="bg"></div>
+	</div>
+	
+	<div id="main-content">
+		<div id="left-column">
+			<div id="logo">
+			Welcome to Sean's Webpage
+			</div>
+			<div class="box">
+        		<h1> This is my page</h1>
+        		<p> Here are some of my interests: </p>
+				<ul style="margin-top:10px;">
+					<li>Networking</li>
+					<li>Automation</li>
+					<li>Experimenting with new technologies</li>
+				</ul>
+			</div>
+			<h2>Some of My Favorite Quotes</h2>
+			<p>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Volc%C3%A1n_Chimborazo,_%22El_Taita_Chimborazo%22.jpg
+" width="139" height="150" style="margin: 0 10px 10px 0;float:left;" />
+				
+				<em>"The Linux philosophy is 'Laugh in the face of danger'. Oops. Wrong One. 'Do it yourself'. Yes, that's it. "</em> -Linus Torvalds<br/>
+				<em>"The best things that capture your imagination are ones you hadn't thought of before and that aren't talked about in the news all the time. "</em> - Steve Wozniak<br/>
+				<em>"First they ignore you, then they laugh at you, then they fight you, then you win."</em> - Gandhi<br/>
+			</p>
+		</div>
+		<div id="right-column">
+			<div id="main-image"><img src="http://wallacepiersontravel.com/wp-content/uploads/2015/05/interesting-facts-about-ecuador4-1024x576.jpg
+" width="240" height="160" /></div>
+			<div class="sidebar">
+				<h3>About Me</h3>
+				<p>My name is Sean Waclawik and I am a CS student at Rensselaer Polytechnic Institute in Troy, NY.</p>
+				<h3>Find Me Elsewhere</h3>
+				<div class="box">
+					<ul>
+						<li><a href="http://facebook.com/" target="sean.waclawik">Facebook</a></li>
+						<li><a href="http://linkedin.com/" target="in/sean-waclawik-28018181">LinkedIn</a></li>
+						<li><a href="http://github.com/" target="SeanWaclawik">GitHub</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		Copyright &copy; 2016<br/>
+		Layout adapted from <a href="http://www.web-designers-directory.org/" target="_blank">Web Designers' Directory</a>.
+	</div>
+</div>

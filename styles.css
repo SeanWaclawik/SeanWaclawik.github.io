@@ -136,6 +136,7 @@ img {
  .form {
  	position: relative;
  	width: auto;
+	margin: 0 auto
 	 /*left: 200px;*/
 
  }

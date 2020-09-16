@@ -146,7 +146,7 @@ h1.name {
 	font-weight: 100;
 	display: inline-block;
 	opacity: 1.0;
-	padding: 5px 5px;
+	padding: 10px 10px;
 	/*color: #5B6A9A; SMW*/
 	/*position: relative; */
 }
@@ -170,7 +170,7 @@ h1.name {
 	font-weight: 300;
 	color: 404550;/*#81899C;*/
 	margin-top: 5px;
-	padding: 5px 5px;
+	padding: 10px 10px;
 	opacity: 1.0
 }
 

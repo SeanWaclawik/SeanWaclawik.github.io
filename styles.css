@@ -126,7 +126,7 @@ img {
 }
 .liveBkgnd::before { 
 	  content: '';
-      background-image: url('RailSM1.jpeg');
+      background-image: url('RailSM2.jpeg');
       background-size: cover;
       position: absolute;
       top: 0px;

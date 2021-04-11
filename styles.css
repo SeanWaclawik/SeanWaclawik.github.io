@@ -109,10 +109,10 @@ img {
       height: 100%;/*SMW*/
       width: auto;/*SMW*/
       position: absolute;
-      top: 0px;
+      /*SMW top: 0px;
       right: 0px;
       bottom: 0px;
-      left: 0px;
+      left: 0px;*/
       opacity: 0.5;
       /*background: rgba(0,0,0,0.5);*/
 }

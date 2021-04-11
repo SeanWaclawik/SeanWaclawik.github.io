@@ -131,8 +131,8 @@ img {
       background-image: url('RailSM2.jpeg');
       background-size: cover;
       position: absolute;
-      height: auto;
-      width: 100%;
+      /*SMW height: auto;
+      width: 100%;*/
       top: 0px;
       right: 0px;
       bottom: 0px;

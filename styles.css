@@ -131,12 +131,12 @@ img {
       background-image: url('RailSM2.jpeg');
       background-size: cover;
       position: absolute;
-      /*height: 100%;SMW*/
-      /*width: auto;SMW*/
+      height: auto;
+      width: 100%;
       top: 0px;
-      /*right: 0px;
+      right: 0px;
       bottom: 0px;
-      left: 0px;SMW*/
+      left: 0px;
       opacity: 0.5;
       /*background: rgba(0,0,0,0.5);*/
 }

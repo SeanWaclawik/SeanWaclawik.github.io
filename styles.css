@@ -116,6 +116,28 @@ img {
 }
 
 
+.livBkgnd {
+  margin: 50px auto;
+  width: 100%;
+  height: auto;/*SMW1 500px;*/
+  /*opacity: 0.5;
+  background: url('SM.jpg') no-repeat center;*/
+  position: relative;
+}
+.liveBkgnd::before { 
+	  content: '';
+      background-image: url('RailSm.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+      /*background: rgba(0,0,0,0.5);*/
+}
+
+
 .container {
 	max-width: 1100px;
 	height: auto;

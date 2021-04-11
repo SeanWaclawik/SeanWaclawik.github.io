@@ -130,11 +130,11 @@ img {
 	  content: '';
       background-image: url('RailSM2.jpeg');
       background-size: cover;
-      position: center; /*absolute;*/
+      position: absolute;
       height: 100%;/*SMW*/
       width: auto;/*SMW*/
-      /*top: 0px;
-      right: 0px;
+      top: 0px;
+      /*right: 0px;
       bottom: 0px;
       left: 0px;SMW*/
       opacity: 0.5;

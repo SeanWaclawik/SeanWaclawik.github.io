@@ -106,6 +106,8 @@ img {
 	  content: '';
       background-image: url('SM.jpg');
       background-size: cover;
+      height: 100%;/*SMW*/
+      width: auto;/*SMW*/
       position: absolute;
       top: 0px;
       right: 0px;

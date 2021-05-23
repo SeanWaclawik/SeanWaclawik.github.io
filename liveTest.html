@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <title>Waclawik Wedding LiveStream</title>
+    <link href="styles.css" rel="stylesheet" type="text/css"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <img src="./SM.jpg" alt="us" width="2400" height="1600">    font-weight: bold;   margin-top: 100px; -->
+    <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 60px;
+  opacity: 0.8;
+  margin-bottom: 100px;
+  line-height: 120px; 
+}
+</style>
+</head>
+<body class="liveBkgnd" >
+
+<p class="name" id="CountDown"> </p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("May 23, 2021 15:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Output the result in an element with id="demo"
+  document.getElementById("CountDown").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("CountDown").innerHTML = "LIVE";
+  }
+}, 1000);
+</script>
+
+</body>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<footer class="container">
+		<span style="font-size: 16px; margin-top: "><br><a href="mailto:WaclawikWedding@gmail.com">Contact us </a> or <a href="mailto:MickaylaHagar@gmail.com">Mickayla </a> | <a href="mailto:seanwaclawik@gmail.com">Sean Waclawik</a></span>
+		<span style="font-size: 16px; margin-top: "> | <a href="./index.html">seanwaclawik.com</a></span>
+	</footer>
+</html>

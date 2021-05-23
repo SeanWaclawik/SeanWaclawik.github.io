@@ -25,8 +25,8 @@ p {
 <p class="name" id="CountDown"> </p>
 
 <script>
-// Set the date we're counting down to
-//SMW var countDownDate = new Date("Jun 26, 2021 13:00:00").getTime();
+// Set the date we're counting down to, with timezone,
+// so the countdown is the same anywhere in the world.
 var countDownDate = new Date("2021-06-26T13:00:00.000-04:00").getTime();
 
 // Update the count down every 1 second
@@ -51,7 +51,7 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("CountDown").innerHTML = "NOW LIVE - Click Here";
+    document.getElementById("CountDown").innerHTML = '<a href="https://www.seanwaclawik.com/live">NOW LIVE - Click Here!</a>';
   }
 }, 1000);
 </script>
